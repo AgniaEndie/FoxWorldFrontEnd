@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d76d0d18-14a2-4a76-8a0f-b17b3c1d6619" name="auth.orenliss.com" url="https://auth.orenliss.com">
+        <fileTransfer rootFolder="/var/www/auth.orenliss.com" accessType="SFTP" host="foxworld.online" port="22" sshConfigId="5aedda44-c6d3-46e2-82e6-5769acdf33fb" sshConfig="endienasg@foxworld.online:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
