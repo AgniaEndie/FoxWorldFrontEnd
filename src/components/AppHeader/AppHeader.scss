@@ -1,9 +1,16 @@
+$body-bg: #fff7e6;
 @import '~bootstrap/scss/bootstrap';
 .navbar-brand{
   --bs-navbar-brand-color:#fd7e14;
   &:hover{
-    color: #fcac05;
+    color: #fcac05!important;
   }
+}
+.navbar-toggler{
+  &:focus{
+    border-color: #fcac05!important;
+  }
+  color: #fd7e14!important;
 }
 
 .btn {
@@ -18,9 +25,9 @@
   @each$color, $value in $colors{
     &-outline {
       &-orange {
-        --bs-btn-color: #fd7e14;
-        --bs-btn-border-color: #fd7e14;
-        --bs-btn-hover-color: #000;
+        --bs-btn-color: #fd7e14!important;
+        --bs-btn-border-color: #fd7e14!important;
+        --bs-btn-hover-color: #fff;
         --bs-btn-hover-bg: #fd7e14;
         --bs-btn-hover-border-color: #fd7e14;
         --bs-btn-focus-shadow-rgb: 255, 193, 7;
@@ -38,11 +45,14 @@
 }
 
 .nav-link{
-  color: #fd7e14;
+  color: #fd7e14!important;
   &:hover{
     color: #fcac05;
   }
 }
 .active{
   color: #fcac05;
+}
+nav{
+    background-color: #fff7e6!important;
 }

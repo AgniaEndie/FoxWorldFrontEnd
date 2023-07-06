@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+  background-color: #fff7e6!important;
+}
+.mb{
+  &-25 {
+    margin-bottom: 25%!important;
+  }
+}
+.mt{
+  &-25 {
+    margin-top: 25%!important;
+  }
+  &-50 {
+    margin-top: 50%!important;
+  }
+}
+.container{
+  background: #fff7e6!important;
+}
+.divCol{
+  background: #fff7e6!important;
+}
+
+body{
+  background-color: #fff7e6!important;
+}

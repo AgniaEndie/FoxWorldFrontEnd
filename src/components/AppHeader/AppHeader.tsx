@@ -46,8 +46,8 @@ function AppHeader() {
     }
 
     return (
-        <div>
-            <Navbar expand="lg" className={"bg-body-tertiary"}>
+<>
+            <Navbar expand="lg" className={""}>
                 <Container>
                     <Navbar.Brand href="#home">FoxWorld</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -79,7 +79,7 @@ function AppHeader() {
                 </Container>
             </Navbar>
             <RegModal />
-        </div>
+    </>
             )
 }
 
