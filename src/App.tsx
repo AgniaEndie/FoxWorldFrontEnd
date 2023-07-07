@@ -4,6 +4,7 @@ import './assets/App.scss';
 import AppHeader from "./components/AppHeader/AppHeader";
 import AppCarousel from "./components/AppCarousel/AppCarousel";
 import About from "./components/About/About";
+import AppFooter from "./components/AppFooter/AppFooter";
 
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,6 +13,7 @@ function App() {
         <AppHeader/>
         <AppCarousel/>
         <About/>
+        <AppFooter/>
     </div>
   );
 }
